@@ -348,65 +348,6 @@
 
   .section-title .accent { color: var(--orange); }
 
-  /* ─── HOW IT WORKS ─── */
-  #kako-radi {
-    background: var(--charcoal2);
-    border-top: 1px solid rgba(255,255,255,0.04);
-    border-bottom: 1px solid rgba(255,255,255,0.04);
-  }
-
-  .steps-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1px;
-    background: rgba(255,255,255,0.05);
-    margin-top: 56px;
-    border: 1px solid rgba(255,255,255,0.05);
-    border-radius: 12px;
-    overflow: hidden;
-  }
-
-  .step {
-    background: var(--charcoal2);
-    padding: 40px 32px;
-    position: relative;
-    transition: background 0.3s;
-  }
-
-  .step:hover { background: var(--charcoal3); }
-
-  .step-num {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 900;
-    font-size: 5rem;
-    color: rgba(245,166,35,0.08);
-    position: absolute;
-    top: 16px;
-    right: 24px;
-    line-height: 1;
-    user-select: none;
-  }
-
-  .step-icon {
-    font-size: 2rem;
-    margin-bottom: 16px;
-  }
-
-  .step-title {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 800;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    letter-spacing: 0.3px;
-  }
-
-  .step-desc {
-    font-size: 0.9rem;
-    color: var(--muted);
-    line-height: 1.6;
-  }
-
   /* ─── CATEGORIES ─── */
   #kategorije { }
 
@@ -1226,8 +1167,7 @@
     <div class="logo-text">Iznajmi<span>Alat</span>.com</div>
   </a>
   <ul class="nav-links">
-    <li><a href="#kako-radi">Kako radi</a></li>
-    <li><a href="#kategorije">Kategorije</a></li>
+<li><a href="#kategorije">Kategorije</a></li>
     <li><a href="#cene">Cene</a></li>
     <li><a href="#zarada">Zarada</a></li>
     <li><a href="#registracija" class="nav-cta">Prijavi se</a></li>
@@ -1300,39 +1240,6 @@
     <div class="marquee-item">💧 Pumpe i kompresori<div class="marquee-dot"></div></div>
   </div>
 </div>
-
-<!-- HOW IT WORKS -->
-<section id="kako-radi">
-  <div class="section-label">Proces</div>
-  <h2 class="section-title">Kako <span class="accent">radi</span> platforma?</h2>
-
-  <div class="steps-grid reveal">
-    <div class="step">
-      <div class="step-num">01</div>
-      <div class="step-icon">📝</div>
-      <div class="step-title">Registruj se</div>
-      <div class="step-desc">Kreiraj nalog za 2 minuta. Verifikuj identitet i postani deo zajednice iznajmljivača.</div>
-    </div>
-    <div class="step">
-      <div class="step-num">02</div>
-      <div class="step-icon">📍</div>
-      <div class="step-title">Pronađi alat</div>
-      <div class="step-desc">Pretraži po lokaciji, kategoriji i ceni. Vidi šta ima u tvojoj ulici ili opštini.</div>
-    </div>
-    <div class="step">
-      <div class="step-num">03</div>
-      <div class="step-icon">💬</div>
-      <div class="step-title">Kontaktiraj</div>
-      <div class="step-desc">Pošalji poruku iznajmljivaču direktno. Dogovorite termin i preuzimanje.</div>
-    </div>
-    <div class="step">
-      <div class="step-num">04</div>
-      <div class="step-icon">✅</div>
-      <div class="step-title">Iznajmi & Oceni</div>
-      <div class="step-desc">Preuzmi alat, uradi posao. Po povratku ostavi ocenu i pomozi zajednici da raste.</div>
-    </div>
-  </div>
-</section>
 
 <!-- CATEGORIES -->
 <section id="kategorije">
